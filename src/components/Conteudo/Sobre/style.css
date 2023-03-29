@@ -1,0 +1,15 @@
+.sobre {
+  text-align: center;
+}
+.sobre h2 {
+  padding: 210px 0px 60px 0px;
+}
+.sobre p {
+  padding: 10px 0px;
+  font-size: 18px;
+}
+@media (max-width: 425px) {
+  .sobre {
+    width: 300px;
+  }
+}

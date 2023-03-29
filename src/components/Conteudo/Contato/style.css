@@ -1,0 +1,30 @@
+.contato {
+  padding-bottom: 150px;
+}
+.contatos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 50px;
+}
+.contato h2 {
+  padding: 60px 0px;
+}
+.contatos div {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.contatos a {
+  color: #fff;
+  text-decoration: none;
+}
+.contatos img {
+  max-width: 75px;
+}
+.contatos div:hover {
+  animation: ida-volta2 0.5s linear;
+}
