@@ -1,0 +1,47 @@
+.formacao {
+  padding-top: 8rem;
+}
+.formacoes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding-bottom: 140px;
+}
+.formacao h2 {
+  padding-bottom: 60px;
+}
+.diploma {
+  width: 280px;
+  background-color: rgba(128, 0, 128, 0.425);
+  padding: 20px 0px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  height: 250px;
+  box-shadow: 4px 4px 10px #fff;
+}
+.diploma:hover {
+  background-color: #fff;
+  color: #000;
+  box-shadow: 4px 4px 10px #000;
+  transition: 1.5s;
+}
+.diploma p {
+  font-size: 18px;
+}
+.diploma a,
+.diploma span {
+  color: #fff;
+  text-decoration: none;
+  background-color: black;
+  margin: 0 auto;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+.diploma a:hover {
+  background-color: rgb(91, 0, 152);
+  transition: 1s;
+}

@@ -1,0 +1,40 @@
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+.banner h2 {
+  font-size: 54px;
+  text-shadow: 4px 4px 20px rgb(226, 0, 226);
+  animation: ida-volta2 5s linear infinite;
+}
+.banner img {
+  width: 350px;
+  box-shadow: 0px 0px 20px 10px #000;
+  border-radius: 100%;
+  opacity: 0.7;
+  animation: ida-volta2 5s linear infinite;
+}
+.banner h3 {
+  font-size: 24px;
+  text-shadow: 4px 4px 20px rgb(226, 0, 226);
+  animation: ida-volta2 5s linear infinite;
+}
+@media (max-width: 900px) {
+  .banner img,
+  .banner h2,
+  .banner h3 {
+    animation: none;
+  }
+}
+@media (max-width: 425px) {
+  .banner {
+    padding: 100px 0px;
+    gap: 30px;
+  }
+  .banner img {
+    width: 300px;
+  }
+}
